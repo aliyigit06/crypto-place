@@ -1,17 +1,37 @@
-# React + Vite
+# 💰 Crypto Info App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a real-time cryptocurrency information application built using **React** and **Vite**. The project fetches live data of hundreds of cryptocurrencies through API requests, and presents detailed insights including graphical analysis in both USD and EUR.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Live cryptocurrency price tracking via API  
+- Support for hundreds of coins  
+- Filter/search coins in real-time  
+- View coin values in both USD and EUR  
+- Detailed coin pages with dynamic charts  
+- Chart updates automatically based on selected currency  
+- Fully responsive UI with **Tailwind CSS**  
+- Smooth client-side navigation with **React Router**  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+### 💻 Frontend
+- React  
+- Vite  
+- Tailwind CSS  
+- @tailwindcss/vite  
+- React Icons  
+- React Router DOM  
+- Axios  
+- React Google Charts  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# crypto-place
+### 📈 Charting
+- Coin detail pages feature dynamic data visualization using **react-google-charts**  
+
+---
+
+## 📺 Demo
+![Crypto Info App Demo](crypto-place.gif)
